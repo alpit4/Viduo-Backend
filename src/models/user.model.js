@@ -10,26 +10,26 @@ const userSchema = new Schema(
       unique: true,
       index: true,
       lowercase: true,
-      trim: index,
+      // trim: index,
     },
     email: {
       type: String,
       required: true,
       unique: true,
       lowercase: true,
-      trim: index,
+      // trim: index,
     },
     fullName: {
       type: String,
       required: true,
       index: true,
-      trim: index,
+      // trim: index,
     },
     avatar: {
       type: String,
       required: true,
     },
-    coverimage: {
+    coverImage: {
       type: String,
     },
     watchHistory: [
